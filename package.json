@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +18,7 @@
     "mongoose": "^8.6.0",
     "multer": "^1.4.5-lts.1",
     "sequelize": "^6.37.3",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "webpack": "^5.94.0"
   }
 }
